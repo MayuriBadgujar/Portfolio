@@ -1,0 +1,180 @@
+/* Logo */
+@media only screen and (max-width :576px){
+    .logo{
+        text-align: center;
+        padding: 10px 0;
+        width: 20px;
+        height: 20px;
+        aspect-ratio: 2/3;
+
+    }
+    .top-menu{
+        justify-content: center !important;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+}  
+
+
+/* Second section */
+
+.highlight{
+    color:rgb(232, 46, 13);
+}
+a {
+    color: white !important;
+    font-size: 30em;
+  }
+  a:hover {
+    color: rgb(215, 207, 214) !important;
+  }
+  header {
+    padding: 15px 0;
+  }
+  .slider {
+    padding: 15px 0;
+  }
+  h1{
+      padding: 15px 0;
+      text-shadow: 10px;
+  }
+p{
+    font-size: 20px;
+}
+
+
+/* Body image */
+body{
+    /* background-image: url(./images/body.png); */
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    background-color: rgb(62, 20, 20);
+    /* background-size: cover; */
+}
+
+
+
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.col-3{
+    /* width: 200px; */
+    /* height: 100px; */
+    width: calc(25% - 50px);
+    padding: 15px;
+margin: 15px;
+aspect-ratio: 16/9;
+}
+img{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    padding-left: 30px;
+       ;
+}
+
+
+/* slider */
+
+
+  /* 3 sections */
+  
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  .col-4{
+    width: 25%;
+     border: solid 0.5PX rgb(206, 217, 173);
+     
+    padding: 40px;
+    /* padding-top: 50PX !important; */
+    box-sizing: border-box;
+    /* background-color: lavender; */
+}
+.x1{
+    text-align: center;
+    padding-bottom: 20PX; 
+font-size: large;
+color: white;
+}
+
+
+
+
+/* 4th section */
+.col-6{
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+    /* border: solid; */
+
+}
+button{
+    text-align: center;
+    padding-top: 10px ;
+}
+.btn{
+    color: rgb(25, 14, 143);
+    background-color: antiquewhite;
+}
+.y1{
+    border: solid;
+}
+.y3{
+    color: white;
+    font-size: 22px;
+}
+/* }
+.y2{
+    padding: 50px;
+    border: solid;
+} */
+
+
+h2{
+    text-align: center;
+}
+h2:hover{
+    color: rgb(2, 1, 20);
+}
+
+
+
+/* education */
+
+.card-body{
+    background-color: rgb(14, 6, 6);
+
+}
+.card-body:hover{
+    background-color: rgb(17, 2, 23);
+}
+.p1{
+    color: chocolate;
+}
+.col-xl-4{
+    display: flex;
+    width: 25%;
+    text-align: center;
+   
+
+
+
+
+
+
+
+}
+.r1{
+    width: 1200px;
+}
+.btn btn-primary:hover{
+    color: white;
+    background-color: aquamarine;
+}
